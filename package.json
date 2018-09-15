@@ -1,0 +1,44 @@
+{
+	"name": "my-radio",
+	"version": "0.1.0",
+	"description": "",
+	"main": "gulpfile.js",
+	"scripts": {
+		"test": "mocha --recursive test/**/*.spec.js",
+		"watch": "node node_modules/gulp/bin/gulp.js watch",
+		"lint": "eslint config/ gulpfile.js services/ skill/ speechAssets/ test/ server.js"
+	},
+	"author": "Author",
+	"engines": {
+		"node": ">=4.3.2"
+	},
+	"keywords": [
+		"alexa skill",
+		"skills",
+		"node.js >=4.3.2",
+		"echo",
+		"amazon"
+	],
+	"license": "ISC",
+	"dependencies": {
+		"aws-sdk": "^2.315.0",
+		"bluebird": "^3.3.5",
+		"express": "^4.16.3",
+		"lambda-log": "^2.0.0",
+		"lodash": "^4.17.11",
+		"moment-timezone": "^0.5.21",
+		"voxa": "3.0.0-alpha25"
+	},
+	"devDependencies": {
+		"chai": "^3.5.0",
+		"eslint": "^3.15.0",
+		"eslint-config-airbnb-base": "^11.1.0",
+		"eslint-plugin-import": "^2.2.0",
+		"gulp": "^3.9.1",
+		"gulp-nodemon": "^2.0.7",
+		"mocha": "^3.2.0"
+	},
+	"directories": {
+		"test": "test"
+	}
+}

@@ -1,0 +1,51 @@
+Skip to content
+ 
+Search or jump to…
+
+Pull requests
+Issues
+Marketplace
+Explore
+ @grasela Sign out
+2
+0 6 spatical/headspace-skill Private
+forked from HeadspaceMeditation/headspace-skill
+ Code  Pull requests 0  Projects 0  Wiki  Insights
+headspace-skill/.eslintrc.json
+3dca814  on 23 May
+@rmberrios rmberrios Update .eslintrc.json
+@rmberrios @armonge
+     
+33 lines (32 sloc)  679 Bytes
+{
+  "extends": "airbnb-base",
+  "parserOptions": {
+    "sourceType": "script"
+  },
+  "installedESLint": true,
+  "ecmaFeatures": {
+    "impliedStrict": false
+  },
+  "plugins": [
+    "import"
+  ],
+  "rules": {
+    "consistent-return": "warn",
+    "no-multi-assign": "warn",
+    "spaced-comment": "warn",
+    "max-len": "warn",
+    "no-unused-expressions": "off",
+    "no-use-before-define": "off",
+    "no-param-reassign": "off",
+    "import/no-extraneous-dependencies": "off",
+    "global-require": "off",
+    "import/no-dynamic-require": "off",
+    "no-unused-vars": "warn",
+    "no-console": "off"
+  },
+  "env": {
+    "browser": false,
+    "node": true,
+    "mocha": true
+  }
+}
